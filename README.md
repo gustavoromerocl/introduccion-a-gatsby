@@ -1,5 +1,7 @@
 "# introduccion-a-gatsby" 
 
+## Introduccion
+
 ### Qué es Gatsby
 
 Gatsby es un framework basado en tecnologías modernas para crear aplicaciones web rápidas, de alto rendimiento y accesibles. Está basado en React, una de las librerías más populares de JavaScript, y graphql, un lenguaje de consultas para obteener datos de tu servidor.
@@ -34,3 +36,11 @@ Precompilar el markup, permite además el uso de estrategias para escalar y opti
 El JAMStack no define con qué tecnologías trabajarás, más bien es una arquitectura de cómo se organizarán las tecnologías de tu aplicación. Ésta arquitectura está pensada para los desafíos modernos del internet, velocidad, rendimiento, seguridad, alta disponibilidad, resilencia a caídas y más.
 
 En resumen y desde un punto de vista más práctico, el JAMStack son páginas web estáticas, sin ejecución de código en el backend, cuya funcionalidad y dinamismo recide en el frontend y se ejecuta con JavaScript. Los datos se obtienen de APIs que pueden ser servicios web, archivos de información, bases de datos en la nube, entre otros.
+
+## Fundamentos
+
+### Iniciando un proyecto de Gatsby
+
+- npm install -g gatsby-cli -> Instala Gatsby globalmente
+- gatsby new [folder project] -> Inicia un nuevo proyecto 
+- gatsby develop -> Inicia un entorno de desarollo
