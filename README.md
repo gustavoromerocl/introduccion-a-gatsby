@@ -44,3 +44,9 @@ En resumen y desde un punto de vista más práctico, el JAMStack son páginas we
 - npm install -g gatsby-cli -> Instala Gatsby globalmente
 - gatsby new [folder project] -> Inicia un nuevo proyecto 
 - gatsby develop -> Inicia un entorno de desarollo
+
+### Gatsby starters
+
+Los gatsby starters son plantillas para iniciar el proyecto rapidamente con una base solida
+
+https://www.gatsbyjs.com/starters/
