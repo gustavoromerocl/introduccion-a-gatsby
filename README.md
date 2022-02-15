@@ -50,3 +50,11 @@ En resumen y desde un punto de vista más práctico, el JAMStack son páginas we
 Los gatsby starters son plantillas para iniciar el proyecto rapidamente con una base solida
 
 https://www.gatsbyjs.com/starters/
+
+### Creando mis primeras páginas
+
+La convención de gatsby genera rutas automáticas en relación a el nombre de los archivos contenidos en la carpeta pages. En este caso creamos el componente de nomabre about que retorna una función asíncrona.
+
+### Componentes de React
+
+Los componentes que se agreguen fuera de la carpeta pages no se cargarán en una nueva página. Siguiendo las buenas prácticas los agruparemos en la carpeta components que acabamos de crear.
