@@ -80,3 +80,20 @@ gatsby-browser.js te permite agregar funcionalidad sobre la ejecución de tu app
 gatsby-ssr.js es el archivo API para controlar la forma en cómo Gatsby construye tu sitio web. SSR son las siglas de server side rendering, la práctica que Gatsby usa para construir tus componentes de React en páginas estáticas, que luego pueden ser retomadas por React en el cliente para el dinamismo. A través de este archivo puedes alterar ese proceso de render desde el servidor.
 
 A lo largo del curso estaremos trabajando con estos archivos y los distintos puntos de control o configuración que exponen para personalizar el funcionamiento de Gatsby para tu proyecto.
+
+### Qué son los plugins de Gatsby
+
+Gatsby ofrece una interfaz para que paquetes de NPM que puedes instalar en tu proyecto, puedan agregar funcionalidad a tu sitio a través del uso de los archivos APIs de tu proyecto, de los que ya hablamos en otro tema.
+
+A través de estos plugins, los autores pueden empaquetar funcionalidad predefinida que se puede reutilizar en todos tus proyectos de Gatsby.
+
+A través de plugins puedes integrar librerías externas del Frontend, agregar fuenetes de datos (más de esto en los próximos temas), integrar temas, etc.
+
+Puedes usar la herramienta de exploración de Gatsby para buscar plugins que puedan servir para tu proyecto.
+
+Una vez que encuentres un plugin que necesites, debes instalarlo usando NPM o yarn, dependiendo del manejador de paquetes que uses. Luego debes enlistar el proyecto en el archivo gatsby-config.js en la propiedad plugins.
+
+module.exports = {
+ plugins: [] // Aquí van tus plugins
+}
+En los siguientes vídeos veremos ejemplos de la instalación y configuración de varios plugins que puedes usar con React.
