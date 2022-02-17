@@ -58,3 +58,7 @@ La convención de gatsby genera rutas automáticas en relación a el nombre de l
 ### Componentes de React
 
 Los componentes que se agreguen fuera de la carpeta pages no se cargarán en una nueva página. Siguiendo las buenas prácticas los agruparemos en la carpeta components que acabamos de crear.
+
+### Links
+
+Para optimizar los links gatsby provee el tradicional Link de react, que carga la pagina sin hacer una patición al servidor, lo que se traduce en una trasición rapida y optima.
