@@ -62,3 +62,21 @@ Los componentes que se agreguen fuera de la carpeta pages no se cargarán en una
 ### Links
 
 Para optimizar los links gatsby provee el tradicional Link de react, que carga la pagina sin hacer una patición al servidor, lo que se traduce en una trasición rapida y optima.
+
+### API Files Gatsby
+
+Gatsby expone archivos de configuración que te permiten tomar el control del ciclo completo que sigue tu código hasta su ejecución en el navegador.
+
+Estos archivos son 4, cada uno de ellos tiene una API específica a través de la cuál puedes exponer métodos que se ejecutarán en puntos clave de la ejecución del código.
+
+Estos archivos son opcionales y pertenecen en el root de tu proyecto de Gatsby, no es necesario que los integres de ninguna forma con el framework, basta con seguir la convención de nombres, y Gatsby sabrá cuándo y dónde debe ejecutarlos.
+
+gatsby-config.js es el archivo a través del cuál puedes configurar tu aplicación web con Gatsby, agregar nuevos plugins, metadatos del sitio web, entre otros. En general, la configuración de tu sitio recide aquí.
+
+gatsby-node.js es el archivo que Gatsby usa para exponer puntos clave del proceso de construcción de tu sitio web. Cada que se hace un cambio sobre tu aplicación web, el proceso del build de Gatsby se ejecuta, en este punto Gatsby crea todas las páginas web estáticas de tu sitio y las rutas para acceder a ellas. Tal como Gatsby lo hace, es a través de este archivo que puedes crear páginas dinámicamente, agregar nodos de datos para el motor de graphql, etc.
+
+gatsby-browser.js te permite agregar funcionalidad sobre la ejecución de tu app de Gatsby en el navegador. Desde aquí podrías por ejemplo colocar código que se ejecutará cuando un usuario cambie de ruta en tu app, cuando la página cargue, etc.
+
+gatsby-ssr.js es el archivo API para controlar la forma en cómo Gatsby construye tu sitio web. SSR son las siglas de server side rendering, la práctica que Gatsby usa para construir tus componentes de React en páginas estáticas, que luego pueden ser retomadas por React en el cliente para el dinamismo. A través de este archivo puedes alterar ese proceso de render desde el servidor.
+
+A lo largo del curso estaremos trabajando con estos archivos y los distintos puntos de control o configuración que exponen para personalizar el funcionamiento de Gatsby para tu proyecto.
