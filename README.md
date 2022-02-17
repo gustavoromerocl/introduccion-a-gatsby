@@ -126,4 +126,9 @@ Cabe resaltar que no es necesario usar graphql en todos los sitios de Gatsby, ta
 
 La carpeta assets contiene archivos staticos como imagenes o videos, pero tambien pude contener archivos css y javascript de uso publico.
 
+### Importar imagenes con webpack
+
+Para seguir la convención de gatsby y el uso de webpack integrado en la configuración del proyecto usaremos la carpeta static que viene a ser la carpeta assets.
+
+
 

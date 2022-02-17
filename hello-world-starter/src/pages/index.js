@@ -6,6 +6,7 @@ export default function Home() {
   <div>
     <h1>Home</h1>
     <Link to="/about">Acerca de e</Link>
+    <img src={'images/programador.jpg'} />
   </div>
   )
 }
