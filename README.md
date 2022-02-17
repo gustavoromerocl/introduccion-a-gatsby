@@ -97,3 +97,9 @@ module.exports = {
  plugins: [] // Aquí van tus plugins
 }
 En los siguientes vídeos veremos ejemplos de la instalación y configuración de varios plugins que puedes usar con React.
+
+### Servidor de graphql
+
+Gatsy incorpora el ide graphiql para manipular graphql en la dirección http://localhost:8000/___graphql
+
+
