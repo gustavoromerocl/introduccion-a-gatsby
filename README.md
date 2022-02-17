@@ -130,5 +130,15 @@ La carpeta assets contiene archivos staticos como imagenes o videos, pero tambie
 
 Para seguir la convención de gatsby y el uso de webpack integrado en la configuración del proyecto usaremos la carpeta static que viene a ser la carpeta assets.
 
+### Gatsby Image
+
+Plugins necesarios para manipular las imagenes usando gatsby
+
+npm install gatsby-image gatsby-transformer-sharp gatsby-plugin-sharp gatsby-source-filesystem
+
+
+
+
+
 
 
