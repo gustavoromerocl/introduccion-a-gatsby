@@ -119,3 +119,11 @@ Esta es una característica importante y poderosa para Gatsby, porque te permite
 Gatsby usa graphql para consultar datos que sirvan para el proceso de construcción de tus archivos estáticos. De ésta manera, conservas el dinamismo de una aplicación web, y los beneficios de un sitio web estático.
 
 Cabe resaltar que no es necesario usar graphql en todos los sitios de Gatsby, tal como lo vimos en el vídeo pasado, sin embargo, graphql ofrece increíbles beneficios que irás conociendo conforme vayamos progresando en su uso.
+
+## Trabajando con assets
+
+### La carpeta assets de estáticos
+
+La carpeta assets contiene archivos staticos como imagenes o videos, pero tambien pude contener archivos css y javascript de uso publico.
+
+
