@@ -102,4 +102,20 @@ En los siguientes vídeos veremos ejemplos de la instalación y configuración d
 
 Gatsy incorpora el ide graphiql para manipular graphql en la dirección http://localhost:8000/___graphql
 
+### Para qué usar graphql
 
+Construir aplicaciones web viene acompañado siempre de procesar información de alguna fuente de datos. En el desarrollo web moderno, una aplicación web puede obtener información de distintas fuentes, incluso en un mismo proyecto, puedes tener 1, 2 o más fuentes de información alimentando la aplicación web.
+
+Tradicionalmente, una aplicación web se acompaña de una base de datos para guardar y procesar la información. En el caso de graphql, las rutas y los archivos son estáticos, por lo que no hay oportunidad de hacer consultas a una base de datos como parte de una solicitud web.
+
+Gatsby decide, en cambio, no asumir nada acerca de tu fuente de datos, decidir que cualquier desarrollador puede colocar cualquier tipo de fuente de datos para una aplicación de Gatsby, e incluso, que múltiples fuentes de datos pueden interactuar con Gatsby.
+
+Esto por supuesto, es posible en cualquier otro framework, si buscas la implementación o el driver adecuado, puedes montar múltiples fuentes de datos para una aplicación web, en cualquier lenguaje. Lo que diferencía a Gatsby es graphql.
+
+graphql funciona como una capa de comunicación entre Gatsby y las fuentes de datos, esto significa que es a través del lenguaje de consultas de graphql que puedes consultar información de cualquier fuente de datos con Gatsby.
+
+Esta es una característica importante y poderosa para Gatsby, porque te permite efectivamente agregar, quitar o reemplazar fuentes de datos, sin tener que buscar drivers especiales o aprender el uso de una nueva librería, simplemente debes hacer una consulta con graphql, sin importar si tus datos vienen de un CMS, de archivos del sistema, de un servicio web, de una base de datos en la nube, o de varios de éstos a la vez.
+
+Gatsby usa graphql para consultar datos que sirvan para el proceso de construcción de tus archivos estáticos. De ésta manera, conservas el dinamismo de una aplicación web, y los beneficios de un sitio web estático.
+
+Cabe resaltar que no es necesario usar graphql en todos los sitios de Gatsby, tal como lo vimos en el vídeo pasado, sin embargo, graphql ofrece increíbles beneficios que irás conociendo conforme vayamos progresando en su uso.
