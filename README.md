@@ -184,6 +184,22 @@ Para crear páginas de forma dínamica podemos crear el archivo "gatsby-node.js"
 
 A traves de la propiedad context configurada en ""gatsby-node.js" es posioble enviar información al template. Para acceder, se debe declarar desde las props el objeto pageContext.
 
+### Fuentes de datos en Gatsby
+
+En este contexto, entendemos una fuente de datos cómo alguna API de la que podamos obtener y en la que podamos modificar información.
+
+Gatsby no asume nada acerca de la o las fuentes de datos que puedas usar en tu aplicación de Gatsby, de ésta manera, es posible usar una enorme cantidad de posibles fuentes de datos para tu aplicación web.
+
+Una fuente de datos puede ser una hoja de cálculo, un archivo JSON, múltiples archivos locales, una base de datos en la nube, un servicio web, un CMS, entre muchísimos otros más.
+
+Sin importar cuáles sean las características particulares de tu fuente de datos, Gatsby usa plugins como forma de integración entre ellos, por lo que en términos prácticos, tú únicamente usas el lenguaje de consultas de graphql para obtener la información que necesitas, sin importar de dónde venga ésta originalmente o si estás usando múltiples fuentes de datos que son distintas entre sí.
+
+La integración de estas fuentes de datos con el servidor de graphql de Gatsby se da en el archivo gatsby-node.js, donde es posible agregar nuevos tipos de datos a graphql y nuevos resolvers, funciones que retornan la información de las consultas a graphql.
+
+Gatsby cuenta con, al día en que hicimos el contenido de éste vídeo, con más de 1400 plugins, muchos de ellos te permiten integrar fuentes de datos con tu aplicación web.
+
+Algunos de los ejemplos más comunes de fuentes de datos para aplicaciones de Gatsby son Wordpress, archivos locales del sistema, archivos markdown y servicios web; aunque también existen otros que aunque son menos populares, pueden resultar muy útiles como el uso de listas de trello, hojas de cálculo, entre otros.
+
 
 
 
