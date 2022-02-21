@@ -204,6 +204,10 @@ Algunos de los ejemplos más comunes de fuentes de datos para aplicaciones de Ga
 
 El flujo de graphql es recibir datos desde distintas fuentes enviarlos al dom como nodos y realizar la query de consulta para obtener dicha información. En esta oportunidad, usamos la carpeta images configurada previamente en el plugin gatsby-source-filesystem del archivo "gatsby-config".-
 
+### Consultas graphql con argumentos
+
+Es posible combinar lo que hemos aprendido hasta ahora y usar el relativePath de pageContext y pasarlo como argumento en una consulta graphql, para renderizar las imagenes en cada path.
+
 
 
 
