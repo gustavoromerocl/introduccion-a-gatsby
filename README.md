@@ -180,6 +180,10 @@ Para importar hojas de estilo globales, se debe importar la hojoa de estilos en 
 
 Para crear páginas de forma dínamica podemos crear el archivo "gatsby-node.js" y configurar las rutas en este caso agrupadas en la carpeta templates.
 
+### Enviando datos a las páginas
+
+A traves de la propiedad context configurada en ""gatsby-node.js" es posioble enviar información al template. Para acceder, se debe declarar desde las props el objeto pageContext.
+
 
 
 
