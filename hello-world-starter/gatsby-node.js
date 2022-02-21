@@ -1,11 +1,25 @@
 const path = require('path')
 
-exports.createPages = ({actions}) => {
-  actions.createPage({
-    path: '/mi-pagina-dinamica',
-    component: path.resolve('src/templates/layout.jsx'),
-    context: {
-      name: 'Gustavo'
+exports.createPages = async ({actions, graphql}) => {
+  const files = await graphql(`  
+  { 
+    allFile {
+      nodes {
+        relativePath
+        id
+      }
     }
+  }
+  `)
+
+  files.data.allFile.nodes.forEach( (file) => {
+    actions.createPage({
+      path: `imagenes/${file.id}`,
+      component: path.resolve('src/templates/layout.jsx'),
+      context: {
+        relativePath: file.relativePath
+      }
+    })
   })
+
 }

@@ -200,6 +200,9 @@ Gatsby cuenta con, al día en que hicimos el contenido de éste vídeo, con más
 
 Algunos de los ejemplos más comunes de fuentes de datos para aplicaciones de Gatsby son Wordpress, archivos locales del sistema, archivos markdown y servicios web; aunque también existen otros que aunque son menos populares, pueden resultar muy útiles como el uso de listas de trello, hojas de cálculo, entre otros.
 
+### Datos de los archivos de sistema
+
+El flujo de graphql es recibir datos desde distintas fuentes enviarlos al dom como nodos y realizar la query de consulta para obtener dicha información. En esta oportunidad, usamos la carpeta images configurada previamente en el plugin gatsby-source-filesystem del archivo "gatsby-config".-
 
 
 
