@@ -8,17 +8,18 @@ export default function Home(props) {
   <div>
     <h1>Home</h1>
     <Link to="/about">Acerca de e</Link>
-    <Img fixed={props.data.file.childImageSharp.fixed} />
+    {/*<Img fixed={props.data.file.childImageSharp.fixed} />*/}
+    <Img fluid={props.data.file.childImageSharp.fluid} alt="programador" />
   </div>
   )
 }
 
 export const query = graphql`
   query {
-    file(relativePath: {eq: "publicista.jpg"}) {
+    file(relativePath: {eq: "programador.jpg"}) {
       childImageSharp {
-        fixed(width: 250, height: 250){
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 1920, maxHeight: 1080){
+          ...GatsbyImageSharpFluid
         }
       }
     }

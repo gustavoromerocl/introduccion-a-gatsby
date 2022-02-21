@@ -136,6 +136,19 @@ Plugins necesarios para manipular las imagenes usando gatsby
 
 npm install gatsby-image gatsby-transformer-sharp gatsby-plugin-sharp gatsby-source-filesystem
 
+Para procesar las imagenes con gatsby es necesario obtenerlas mediante una query de graphql
+
+### Fixed Image 
+
+El uso de fixed image establece un valor estatico para el tamaño de la imagen
+
+
+### Fluid Image
+
+Cuando se usa fluid image la imagen se adapta a la resolución de la página de forma automatica
+
+
+
 
 
 
