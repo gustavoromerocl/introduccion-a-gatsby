@@ -170,6 +170,17 @@ GatsbyImageSharpFluid_withWebp_noBase64
 GatsbyImageSharpFluid_withWebp_tracedSVG
 GatsbyImageSharpFluidLimitPresentationSize
 
+### Importar hojas de estilo globales
+
+Para importar hojas de estilo globales, se debe importar la hojoa de estilos en el archivo de configuración "gatsby-browser.js"
+
+## Graphql y fuentes de datos
+
+### Crear paginas dinámicamente
+
+Para crear páginas de forma dínamica podemos crear el archivo "gatsby-node.js" y configurar las rutas en este caso agrupadas en la carpeta templates.
+
+
 
 
 
