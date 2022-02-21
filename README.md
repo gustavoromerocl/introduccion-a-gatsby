@@ -147,6 +147,31 @@ El uso de fixed image establece un valor estatico para el tamaño de la imagen
 
 Cuando se usa fluid image la imagen se adapta a la resolución de la página de forma automatica
 
+### Configuraciones adicionales de Gatsby Image
+
+Es posible configurar distintas animaciones de carga e incluso reducir aín más el tamaño con withWebp con el fin de mejorar el rendimiento del sitio. A continuación los enlaces para revisar la documentación oficial de gatsby.
+
+https://www.gatsbyjs.com/plugins/gatsby-image/#fragments
+https://www.gatsbyjs.com/plugins/gatsby-plugin-sharp
+
+**GATSBY TRANSFORMER SHARP**
+
+GatsbyImageSharpFixed
+GatsbyImageSharpFixed_noBase64
+GatsbyImageSharpFixed_tracedSVG
+GatsbyImageSharpFixed_withWebp
+GatsbyImageSharpFixed_withWebp_noBase64
+GatsbyImageSharpFixed_withWebp_tracedSVG
+GatsbyImageSharpFluid
+GatsbyImageSharpFluid_noBase64
+GatsbyImageSharpFluid_tracedSVG
+GatsbyImageSharpFluid_withWebp
+GatsbyImageSharpFluid_withWebp_noBase64
+GatsbyImageSharpFluid_withWebp_tracedSVG
+GatsbyImageSharpFluidLimitPresentationSize
+
+
+
 
 
 

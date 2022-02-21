@@ -19,7 +19,7 @@ export const query = graphql`
     file(relativePath: {eq: "programador.jpg"}) {
       childImageSharp {
         fluid(maxWidth: 1920, maxHeight: 1080){
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
