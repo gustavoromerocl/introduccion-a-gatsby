@@ -15,7 +15,7 @@ exports.createPages = async ({actions, graphql}) => {
   files.data.allFile.nodes.forEach( (file) => {
     actions.createPage({
       path: `imagenes/${file.id}`,
-      component: path.resolve('src/templates/layout.jsx'),
+      component: path.resolve('src/templates/testTemplate.jsx'),
       context: {
         relativePath: file.relativePath
       }

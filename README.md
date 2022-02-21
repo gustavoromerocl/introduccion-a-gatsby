@@ -208,6 +208,9 @@ El flujo de graphql es recibir datos desde distintas fuentes enviarlos al dom co
 
 Es posible combinar lo que hemos aprendido hasta ahora y usar el relativePath de pageContext y pasarlo como argumento en una consulta graphql, para renderizar las imagenes en cada path.
 
+### Archivos css globales
+
+Para aplicar la estregia de css global, a diferencia del global css que se importa en todos los archivos, estos se deben importar directamente en el componente o template que se va a utilizar. en este caso generamos un layout el cual posee un archivo de estilos del mismo nombre.
 
 
 
