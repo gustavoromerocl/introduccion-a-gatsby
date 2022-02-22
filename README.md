@@ -216,8 +216,14 @@ Para aplicar la estregia de css global, a diferencia del global css que se impor
 
 La estrategia de css modular consiste en agrupar los archivos css junto a sus componentes e importar los estilos instanciando un objeto. De esta forma, independiente de los nombres de clases que se asignen, la convención de webpack asignará un nuevo nombre, evitando que hayan cruces de estilos entre componentes con el mismo nombre.
 
+### styled components
+
+npm install gatsby-plugin-styled-components
+npm install styled-components
+npm install babel-plugin-styled-components
 
 
+Styles components o css in JS utiliza los estilos con funcionalidades de ECMAScript 6, es posible pasar estilos en variables con tags de html asignados o pasarlos en componentes de react al momento de exportarlos.
 
 
 

@@ -4,7 +4,8 @@ import Hello from "../components/hello/Hello"
 export default () => {
   return (
     <div>
-      <Hello name={"Tavo"}/>
+      {/**Pasamos el color para validar la funcionalidad de styled componentes en el componente hello */}
+      <Hello name={"Tavo"} color="red"/>
     </div>
   )
 }
