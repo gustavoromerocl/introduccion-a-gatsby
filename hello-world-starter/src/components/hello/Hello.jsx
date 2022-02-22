@@ -1,6 +1,14 @@
 import React from 'react'
 import * as helloComponentCSS from './hello.module.css'
-import styled from 'styled-components'
+//import styled from 'styled-components'
+import styled from '@emotion/styled'
+import { css } from '@emotion/react'
+
+const title = {
+  'color': 'orange',
+  'font-size': '4em',
+  'font-weight': 'bold'
+}
 
 
 const Hello = (props) => {
@@ -13,7 +21,7 @@ const Hello = (props) => {
   `
   return (
     //Es necesario recibir los estilos que envian al momento de exportar el componente a trav+es de las props
-    <div className={props.className}>
+    <div css={title} className={props.className}>
       <Alert>Alerta Styled components</Alert>
       <p className={ helloComponentCSS.alert } >Alerta CSS modules</p>
       <h1>hello {props.name}</h1>

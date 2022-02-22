@@ -223,9 +223,15 @@ npm install styled-components
 npm install babel-plugin-styled-components
 
 
-Styles components o css in JS utiliza los estilos con funcionalidades de ECMAScript 6, es posible pasar estilos en variables con tags de html asignados o pasarlos en componentes de react al momento de exportarlos.
+Styled components o css in JS utiliza los estilos con funcionalidades de ECMAScript 6, es posible pasar estilos en variables con tags de html asignados o pasarlos en componentes de react al momento de exportarlos.
 
+### Emotion
 
+npm install gatsby-plugin-emotion
+npm install  @emotion/styled
+npm install @emotion/react
+
+Es muy similar a styled components, sin embargo el tamaño de la libreria es menor lo que se traduce en un mejor rendimiento. En la practica realizada, compribamos que cambiando el elemento styled por el de emotion, la aplicación se sigue comportando como con styled components sin realizar cambio alguno. Adicional, usamos la propiedad css de @emotion/react para asignar estilos reutilizables a los componentes.
 
 
 
