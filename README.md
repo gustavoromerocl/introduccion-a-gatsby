@@ -212,6 +212,12 @@ Es posible combinar lo que hemos aprendido hasta ahora y usar el relativePath de
 
 Para aplicar la estregia de css global, a diferencia del global css que se importa en todos los archivos, estos se deben importar directamente en el componente o template que se va a utilizar. en este caso generamos un layout el cual posee un archivo de estilos del mismo nombre.
 
+### CSS modular
+
+La estrategia de css modular consiste en agrupar los archivos css junto a sus componentes e importar los estilos instanciando un objeto. De esta forma, independiente de los nombres de clases que se asignen, la convención de webpack asignará un nuevo nombre, evitando que hayan cruces de estilos entre componentes con el mismo nombre.
+
+
+
 
 
 
