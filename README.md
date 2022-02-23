@@ -233,7 +233,9 @@ npm install @emotion/react
 
 Es muy similar a styled components, sin embargo el tamaño de la libreria es menor lo que se traduce en un mejor rendimiento. En la practica realizada, compribamos que cambiando el elemento styled por el de emotion, la aplicación se sigue comportando como con styled components sin realizar cambio alguno. Adicional, usamos la propiedad css de @emotion/react para asignar estilos reutilizables a los componentes.
 
+### Componentes persistentes
 
+A pesar de tener un layout ya generado, este se recarga y pierde el estado junto con el resto de componentes, para hacerlo persistir se debe configurar en el archivo gatsby-browser y gatsby-ssr(pdte  de investigar ya que no queda claro en el curso). De esta forma, layout mantiene su estado y no se actualiza junto con el resto de componentes.
 
 
 
