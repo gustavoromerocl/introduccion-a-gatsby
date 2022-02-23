@@ -36,6 +36,12 @@ module.exports = {
         display: 'standalone',
         icon: 'static/favicon.ico'
       }
+    },
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        precachePages: ['/about']
+      }
     }
   ],
 }

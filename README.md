@@ -247,6 +247,12 @@ En esta sección revisamos como proteger rutas validando si el usuario esta aute
 
 npm install gatsby-plugin-manifest
 
+### Progresive Web App - Service workers
+
+npm install gatsby-plugin-offline
+
+gatsby build
+
 
 
 
