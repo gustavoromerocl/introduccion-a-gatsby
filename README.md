@@ -237,6 +237,12 @@ Es muy similar a styled components, sin embargo el tamaño de la libreria es men
 
 A pesar de tener un layout ya generado, este se recarga y pierde el estado junto con el resto de componentes, para hacerlo persistir se debe configurar en el archivo gatsby-browser y gatsby-ssr(pdte  de investigar ya que no queda claro en el curso). De esta forma, layout mantiene su estado y no se actualiza junto con el resto de componentes.
 
+### Rutas del lado del cliente
+
+npm install gatsby-plugin-create-client-paths
+
+En esta sección revisamos como proteger rutas validando si el usuario esta autenticado
+
 
 
 

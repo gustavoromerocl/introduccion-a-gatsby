@@ -1,12 +1,14 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Img from 'gatsby-image'
 
-export default function Home(props) {
+
+export default (props) => {
   console.log(props);
   return (
   <div>
     <h1>Home</h1>
+    <Link to="/about">Acerca de e</Link>
     {/*<Img fixed={props.data.file.childImageSharp.fixed} />*/}
     <Img fluid={props.data.file.childImageSharp.fluid} alt="programador" />
   </div>

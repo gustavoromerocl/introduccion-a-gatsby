@@ -18,6 +18,12 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-emotion'
+    'gatsby-plugin-emotion',
+    {
+      resolve: 'gatsby-plugin-create-client-paths',
+      options: {
+        prefixes: ['/app/*']
+      }
+    }
   ],
 }
