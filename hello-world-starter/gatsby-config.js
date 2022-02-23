@@ -24,6 +24,18 @@ module.exports = {
       options: {
         prefixes: ['/app/*']
       }
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Mi primer sitio en gatsby',
+        short_name: 'MPSG',
+        start_url: '/',
+        background_color: '#262B34',
+        theme_color: '#EC6ECE',
+        display: 'standalone',
+        icon: 'static/favicon.ico'
+      }
     }
   ],
 }

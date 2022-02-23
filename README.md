@@ -243,6 +243,17 @@ npm install gatsby-plugin-create-client-paths
 
 En esta sección revisamos como proteger rutas validando si el usuario esta autenticado
 
+### Progresive Web App - Web manifest
+
+npm install gatsby-plugin-manifest
+
+
+
+
+
+
+
+
 
 
 
